@@ -1,7 +1,18 @@
 import React from "react";
 
 function ThirdExample() {
-  return <div>ThirdExample Under Example</div>;
+  return (
+    <div
+      style={{
+        textAlign: "center",
+        fontSize: "2.5rem",
+        color: "brown",
+        width: "100vw",
+      }}
+    >
+      ThirdExample Under Example
+    </div>
+  );
 }
 
 export default ThirdExample;
