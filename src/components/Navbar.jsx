@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import "./Navbar.css";
 import { Link, NavLink } from "react-router-dom";
 
@@ -21,13 +20,13 @@ export const Navbar = () => {
           <NavLink to='/'>Home</NavLink>
         </li>
         <li>
-          <NavLink to="/firstexample">Banner Animation</NavLink>
+          <NavLink to="/firstexample">Simple Banner</NavLink>
         </li>
         <li>
-          <NavLink to="/secondexample">Second Example</NavLink>
+          <NavLink to="/secondexample">Over-the-Top-BannerVariant </NavLink>
         </li>
         <li>
-          <NavLink to="/thirdexample">Third Example</NavLink>
+          <NavLink to="/thirdexample">Subtle BannerVariant</NavLink>
         </li>
       </ul>
     </nav>

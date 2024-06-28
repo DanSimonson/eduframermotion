@@ -1,17 +1,23 @@
 import React from "react";
+import { AnimatedBanner } from "../components/BannerVar";
+import Types from "../utils/Type";
 
 function SecondExample() {
+  let type = Types();
   return (
-    <div
-      style={{
-        textAlign: "center",
-        fontSize: "2.5rem",
-        color: "brown",
-        width: "100vw",
-      }}
-    >
-      SecondExample Under Construction
-    </div>
+    <>
+      <div
+        style={{
+          width: "25vw",
+          display: "flex",
+          justifyContent: "center",
+          marginTop: "4rem",
+          border: "5xp solid green",
+        }}
+      >
+        <AnimatedBanner typeIn={type.overthetopIn} typeOut={type.overthetopOut} />
+      </div>
+    </>
   );
 }
 
