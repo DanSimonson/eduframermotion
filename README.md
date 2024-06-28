@@ -4,4 +4,4 @@ This Application provides examples of framer-motion animations for educational p
 
 Currently available on netlify:
 
-- [Demo](https://framer-motion-banner.netlify.app/secondexample) 
+- [Demo](https://framer-motion-banner.netlify.app) 
