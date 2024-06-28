@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import Types from "../utils/Type";
 
 export const AnimatedBanner = ({ typeIn, typeOut }) => {
   let x = window.innerWidth / 2;
