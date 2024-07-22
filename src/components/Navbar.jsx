@@ -6,7 +6,7 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className= 'mt-96'>
+    <nav className="mt-96">
       <Link to="/" className="title">
         mariposaweb
       </Link>
@@ -17,7 +17,7 @@ export const Navbar = () => {
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <NavLink to='/'>Home</NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
           <NavLink to="/firstexample">Simple Banner</NavLink>
@@ -27,6 +27,9 @@ export const Navbar = () => {
         </li>
         <li>
           <NavLink to="/thirdexample">Subtle BannerVariant</NavLink>
+        </li>
+        <li>
+          <NavLink to="/fourthexample">Advanced Banner</NavLink>
         </li>
       </ul>
     </nav>

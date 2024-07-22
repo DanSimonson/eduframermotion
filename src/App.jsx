@@ -4,6 +4,7 @@ import { Navbar } from "./components/Navbar";
 import FirstExample from "./pages/FirstExample";
 import SecondExample from "./pages/SecondExample";
 import ThirdExample from "./pages/ThirdExample";
+import FourthExample from "./pages/FourthExample";
 import Home from "./pages/Home";
 
 function App() {
@@ -21,10 +22,11 @@ function App() {
         <Navbar />
       </div>
       <Routes>
-        <Route path='/' element={<Home/>} />
+        <Route path="/" element={<Home />} />
         <Route path="firstexample" element={<FirstExample />} />
         <Route path="secondexample" element={<SecondExample />} />
         <Route path="thirdexample" element={<ThirdExample />} />
+        <Route path="fourthexample" element={<FourthExample />} />
       </Routes>
     </div>
   );
