@@ -3,18 +3,16 @@ import { motion, useMotionValue, useTransform } from "framer-motion";
 export const AdvancedBanner = () => {
   let x = window.innerWidth / 2;
   const rotate = useMotionValue(0);
-  const scale = useTransform(rotate, [0, 360], [0, 4]);
+  const scale = useTransform(rotate, [0, 180], [0, 4]);
 
   const AdvancedVariants = {
     wildIn: {
       x: x,
       rotate: 0,
-      scale: 1,
     },
     wildOut: {
-      rotate: 360,
       x: x,
-      scale: 4,
+      rotate: 360,
     },
   };
 
